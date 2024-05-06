@@ -9,21 +9,21 @@ from config import MUSIC_BOT_NAME
 @app.on_message(filters.command(["alive"]))
 async def start(client: Client, message: Message):
     await message.reply_video(
-        video=f"https://graph.org/file/e999c40cb700e7c684b75.mp4",
+        video=f"https://graph.org/file/89cb23a04d6bb7c7a20ab.mp4",
         caption=f"❤️ ʜᴇʏ {message.from_user.mention}\n\n🔮 ɪ ᴀᴍ {MUSIC_BOT_NAME}\n\n✨ ɪ ᴀᴍ ғᴀsᴛ ᴀɴᴅ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs.\n\n💫 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🤍...\n\n━━━━━━━━━━━━━━━━━━❄",
         reply_markup=InlineKeyboardMarkup(
             [
                [
             InlineKeyboardButton(
-                text="☆ AK OWNER 💗 ", url=f"https://t.me/Alllllllllllllllllllllll"
+                text="☆ MY NARUTO 💗 ", url=f"https://t.me/Haxkx"
             ),
             InlineKeyboardButton(
-                text="☆ ꜱᴜᴘᴘᴏʀᴛ 💗", url=f"https://t.me/+f9ZegEtS4U4wNDdl"
+                text="☆ ꜱᴜᴘᴘᴏʀᴛ 💗", url=f"https://t.me/Haxkx"
             ),
         ],
                 [
             InlineKeyboardButton(
-                text="☆ ᴄʜᴀɴɴᴇʟ💗", url=f"https://t.me/+f9ZegEtS4U4wNDdl"
+                text="☆ ᴄʜᴀɴɴᴇʟ💗", url=f"https://t.me/Haxkx"
             ),
                 ],
                 [
